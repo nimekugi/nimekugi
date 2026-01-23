@@ -6,14 +6,22 @@
   <title>Nimekugi</title>
 
   <style>
-    :root {
-      --bg: #f7f6f3;
-      --text: #1a1a1a;
-      --muted: #7a7a7a;
-    }
-body {
+:root {
+  --bg: #f7f6f3;
+  --text: #1a1a1a;
+  --muted: #7a7a7a;
+}
+
+html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+}
+
+body {
   min-height: 100vh;
 
   background-image:
@@ -32,64 +40,42 @@ body {
   justify-content: center;
 }
 
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   "Helvetica Neue", Arial, sans-serif;
-      height: 100%;
-    }
+.container {
+  max-width: 680px;
+  padding: 4rem 2rem;
+  text-align: center;
+}
 
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+h1 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin-bottom: 3rem;
+}
 
-    .container {
-      max-width: 680px;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
+.state {
+  font-size: 0.95rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 3rem;
+}
 
-    h1 {
-      font-size: 2.4rem;
-      font-weight: 400;
-      letter-spacing: 0.2em;
-      margin-bottom: 3rem;
-    }
+.contact {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+}
 
-    .state {
-      font-size: 0.95rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 3rem;
-    }
+.contact a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding-bottom: 2px;
+}
 
-    .text {
-      font-size: 1rem;
-      line-height: 1.7;
-      margin-bottom: 4rem;
-    }
-
-    .contact {
-      font-size: 0.85rem;
-      letter-spacing: 0.12em;
-    }
-
-    .contact a {
-      color: var(--text);
-      text-decoration: none;
-      border-bottom: 1px solid rgba(0,0,0,0.2);
-      padding-bottom: 2px;
-    }
-
-    .contact a:hover {
-      border-bottom-color: var(--text);
-    }
+.contact a:hover {
+  border-bottom-color: var(--text);
+}
   </style>
 </head>
 
