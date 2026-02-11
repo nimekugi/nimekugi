@@ -1,0 +1,12 @@
+# Fichiers temporaires
+*.log
+*.tmp
+*.swp
+
+# Dossiers systèmes
+.DS_Store
+Thumbs.db
+
+# Node / npm si tu utilises des outils front-end
+node_modules/
+dist/
