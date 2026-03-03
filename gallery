@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Nimekugi</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="gallery">
+  <div class="container">
+    <h1>GALLERY</h1>
+    <p>Coming soon: a selection of authenticated nihontō.</p>
+    <!-- Ajoutez ici vos images/fiches de sabres plus tard -->
+    <div class="links">
+      <a href="index.html" class="back">← Back</a>
+    </div>
+  </div>
+</body>
+</html>
